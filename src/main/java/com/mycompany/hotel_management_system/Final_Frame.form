@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
+                              <Component id="viewMore" min="-2" pref="182" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                              <Component id="printReceipt" min="-2" pref="182" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="1203" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                              <Component id="timerLabel" min="-2" pref="120" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="1" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Component id="jPanel2" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Component id="timerLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="408" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="viewMore" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+                  <Component id="printReceipt" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="c" green="c" red="c" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="mainIcon" min="-2" pref="308" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jSeparator1" alignment="1" min="-2" pref="289" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel13" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel16" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel20" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel21" alignment="0" min="-2" pref="111" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane2" alignment="1" pref="0" max="32767" attributes="0"/>
+                              <Component id="referenceNumber" max="32767" attributes="0"/>
+                              <Component id="firstName" max="32767" attributes="0"/>
+                              <Component id="lastName" max="32767" attributes="0"/>
+                              <Component id="address" max="32767" attributes="0"/>
+                              <Component id="referenceAddress" max="32767" attributes="0"/>
+                              <Component id="contactNumber" max="32767" attributes="0"/>
+                              <Component id="emailAddress" max="32767" attributes="0"/>
+                              <Component id="nationality" pref="0" max="32767" attributes="0"/>
+                              <Component id="birthDate" pref="183" max="32767" attributes="0"/>
+                              <Component id="gender" max="32767" attributes="0"/>
+                              <Component id="checkInDate" max="32767" attributes="0"/>
+                              <Component id="checkOutDate" max="32767" attributes="0"/>
+                              <Component id="roomType" max="32767" attributes="0"/>
+                              <Component id="roomNumber" max="32767" attributes="0"/>
+                              <Component id="meals" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                  <Component id="clear" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace pref="94" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="mainIcon" min="-2" pref="156" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="referenceNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="address" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="referenceAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="contactNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="emailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <Component id="birthDate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <Component id="checkInDate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <Component id="checkOutDate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="roomType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="roomNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="meals" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="82" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="clear" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Reference number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="First name:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Last name:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Address:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Reference address:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Contact number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Email address:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Nationality:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Birth date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Gender:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Check in date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Check out date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Room type:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Room number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="referenceNumber">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="referenceNumberActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="firstName">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lastName">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="address">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="referenceAddress">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="contactNumber">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="emailAddress">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Enter Value"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.components.JLocaleChooser" name="nationality">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="777">
+                <StringItem index="0" value="Filipino (Philippines)"/>
+                <StringItem index="1" value="Thai (Thai, Thailand)"/>
+                <StringItem index="2" value="Turkmen (Latin, Turkmenistan)"/>
+                <StringItem index="3" value="Tigrinya (Ethiopia)"/>
+                <StringItem index="4" value="Tamil (Singapore)"/>
+                <StringItem index="5" value="English (Niue)"/>
+                <StringItem index="6" value="Chinese (Simplified, Singapore)"/>
+                <StringItem index="7" value="Fulah (Adlam, Liberia)"/>
+                <StringItem index="8" value="English (Jamaica)"/>
+                <StringItem index="9" value="Northern Sami (Latin, Norway)"/>
+                <StringItem index="10" value="Spanish (Bolivia)"/>
+                <StringItem index="11" value="Dzongkha (Bhutan)"/>
+                <StringItem index="12" value="Bosnian (Bosnia &amp; Herzegovina)"/>
+                <StringItem index="13" value="Lower Sorbian (Germany)"/>
+                <StringItem index="14" value="Luxembourgish (Latin, Luxembourg)"/>
+                <StringItem index="15" value="English (Liberia)"/>
+                <StringItem index="16" value="Arabic (Chad)"/>
+                <StringItem index="17" value="Nuer (Latin, South Sudan)"/>
+                <StringItem index="18" value="Fulah (Latin, Mauritania)"/>
+                <StringItem index="19" value="Swahili (Uganda)"/>
+                <StringItem index="20" value="Turkmen (Turkmenistan)"/>
+                <StringItem index="21" value="Serbian (Cyrillic, Montenegro)"/>
+                <StringItem index="22" value="Arabic (Egypt)"/>
+                <StringItem index="23" value="Ossetic (Cyrillic, Georgia)"/>
+                <StringItem index="24" value="Yoruba (Nigeria)"/>
+                <StringItem index="25" value="Northern Sami (Norway)"/>
+                <StringItem index="26" value="English (Palau)"/>
+                <StringItem index="27" value="Polish (Poland)"/>
+                <StringItem index="28" value="Serbian (Serbia And Montenegro)"/>
+                <StringItem index="29" value="Nepali (India)"/>
+                <StringItem index="30" value="Aghem (Latin, Cameroon)"/>
+                <StringItem index="31" value="Arabic (Western Sahara)"/>
+                <StringItem index="32" value="Bosnian (Latin, Bosnia &amp; Herzegovina)"/>
+                <StringItem index="33" value="Low German (Germany)"/>
+                <StringItem index="34" value="Norwegian Bokm&#xe5;l (Svalbard &amp; Jan Mayen)"/>
+                <StringItem index="35" value="Spanish (United States)"/>
+                <StringItem index="36" value="English (United States, Computer)"/>
+                <StringItem index="37" value="Portuguese (Macao SAR China)"/>
+                <StringItem index="38" value="Luxembourgish (Luxembourg)"/>
+                <StringItem index="39" value="Lower Sorbian (Latin, Germany)"/>
+                <StringItem index="40" value="Icelandic (Latin, Iceland)"/>
+                <StringItem index="41" value="Somali (Kenya)"/>
+                <StringItem index="42" value="Zarma (Niger)"/>
+                <StringItem index="43" value="Armenian (Armenian, Armenia)"/>
+                <StringItem index="44" value="Fulah (Latin, Ghana)"/>
+                <StringItem index="45" value="French (St. Pierre &amp; Miquelon)"/>
+                <StringItem index="46" value="Arabic (Comoros)"/>
+                <StringItem index="47" value="Norwegian (Norway, Nynorsk)"/>
+                <StringItem index="48" value="Polish (Latin, Poland)"/>
+                <StringItem index="49" value="Aghem (Cameroon)"/>
+                <StringItem index="50" value="Gujarati (Gujarati, India)"/>
+                <StringItem index="51" value="Turkish (Turkey)"/>
+                <StringItem index="52" value="Kalaallisut (Latin, Greenland)"/>
+                <StringItem index="53" value="Arabic (Mauritania)"/>
+                <StringItem index="54" value="Spanish (Dominican Republic)"/>
+                <StringItem index="55" value="Kalaallisut (Greenland)"/>
+                <StringItem index="56" value="English (Nauru)"/>
+                <StringItem index="57" value="Low German (Latin, Germany)"/>
+                <StringItem index="58" value="Kinyarwanda (Latin, Rwanda)"/>
+                <StringItem index="59" value="English (Australia)"/>
+                <StringItem index="60" value="English (Cyprus)"/>
+                <StringItem index="61" value="Turkish (Latin, Turkey)"/>
+                <StringItem index="62" value="Tigrinya (Eritrea)"/>
+                <StringItem index="63" value="Nuer (South Sudan)"/>
+                <StringItem index="64" value="English (Rwanda)"/>
+                <StringItem index="65" value="Croatian (Latin, Croatia)"/>
+                <StringItem index="66" value="Lingala (Congo - Kinshasa)"/>
+                <StringItem index="67" value="Ngiemboon (Cameroon)"/>
+                <StringItem index="68" value="Zarma (Latin, Niger)"/>
+                <StringItem index="69" value="Arabic (Israel)"/>
+                <StringItem index="70" value="Odia (India)"/>
+                <StringItem index="71" value="Pashto (Arabic, Afghanistan)"/>
+                <StringItem index="72" value="Arabic (Syria)"/>
+                <StringItem index="73" value="Luo (Latin, Kenya)"/>
+                <StringItem index="74" value="Bafia (Cameroon)"/>
+                <StringItem index="75" value="Tatar (Russia)"/>
+                <StringItem index="76" value="Oromo (Kenya)"/>
+                <StringItem index="77" value="English (American Samoa)"/>
+                <StringItem index="78" value="French (Vanuatu)"/>
+                <StringItem index="79" value="Chinese (Taiwan)"/>
+                <StringItem index="80" value="Sindhi (India)"/>
+                <StringItem index="81" value="Ngiemboon (Latin, Cameroon)"/>
+                <StringItem index="82" value="Portuguese (Mozambique)"/>
+                <StringItem index="83" value="French (Niger)"/>
+                <StringItem index="84" value="Friulian (Latin, Italy)"/>
+                <StringItem index="85" value="Asturian (Latin, Spain)"/>
+                <StringItem index="86" value="Bena (Latin, Tanzania)"/>
+                <StringItem index="87" value="Shambala (Tanzania)"/>
+                <StringItem index="88" value="Burmese (Myanmar, Myanmar (Burma))"/>
+                <StringItem index="89" value="English (Jersey)"/>
+                <StringItem index="90" value="Lingala (Central African Republic)"/>
+                <StringItem index="91" value="Uzbek (Afghanistan)"/>
+                <StringItem index="92" value="Danish (Latin, Denmark)"/>
+                <StringItem index="93" value="English (Christmas Island)"/>
+                <StringItem index="94" value="Akan (Latin, Ghana)"/>
+                <StringItem index="95" value="English (Austria)"/>
+                <StringItem index="96" value="Cantonese (Simplified, China)"/>
+                <StringItem index="97" value="Kannada (India)"/>
+                <StringItem index="98" value="English (Tanzania)"/>
+                <StringItem index="99" value="English (Puerto Rico)"/>
+                <StringItem index="100" value="French (New Caledonia)"/>
+                <StringItem index="101" value="Scottish Gaelic (United Kingdom)"/>
+                <StringItem index="102" value="French (Cameroon)"/>
+                <StringItem index="103" value="Walser (Latin, Switzerland)"/>
+                <StringItem index="104" value="Punjabi (Gurmukhi, India)"/>
+                <StringItem index="105" value="Urdu (Arabic, Pakistan)"/>
+                <StringItem index="106" value="Nigerian Pidgin (Latin, Nigeria)"/>
+                <StringItem index="107" value="Teso (Uganda)"/>
+                <StringItem index="108" value="Norwegian (Latin, Norway)"/>
+                <StringItem index="109" value="Bangla (Bangla, Bangladesh)"/>
+                <StringItem index="110" value="Inari Sami (Latin, Finland)"/>
+                <StringItem index="111" value="English (Netherlands)"/>
+                <StringItem index="112" value="Lingala (Congo - Brazzaville)"/>
+                <StringItem index="113" value="Nepali (Devanagari, Nepal)"/>
+                <StringItem index="114" value="Azerbaijani (Azerbaijan)"/>
+                <StringItem index="115" value="Marathi (India)"/>
+                <StringItem index="116" value="Greek (Cyprus)"/>
+                <StringItem index="117" value="Kurdish (Turkey)"/>
+                <StringItem index="118" value="Gusii (Latin, Kenya)"/>
+                <StringItem index="119" value="Northern Luri (Iran)"/>
+                <StringItem index="120" value="Swiss German (France)"/>
+                <StringItem index="121" value="Spanish (Honduras)"/>
+                <StringItem index="122" value="Hungarian (Hungary)"/>
+                <StringItem index="123" value="Fulah (Senegal)"/>
+                <StringItem index="124" value="Albanian (North Macedonia)"/>
+                <StringItem index="125" value="Serbian (Cyrillic, Bosnia &amp; Herzegovina)"/>
+                <StringItem index="126" value="Bulgarian (Cyrillic, Bulgaria)"/>
+                <StringItem index="127" value="Somali (Latin, Somalia)"/>
+                <StringItem index="128" value="Estonian (Estonia)"/>
+                <StringItem index="129" value="Arabic (Oman)"/>
+                <StringItem index="130" value="Western Frisian (Netherlands)"/>
+                <StringItem index="131" value="Turkish (Cyprus)"/>
+                <StringItem index="132" value="Latvian (Latin, Latvia)"/>
+                <StringItem index="133" value="Uzbek (Latin, Uzbekistan)"/>
+                <StringItem index="134" value="Northern Luri (Iraq)"/>
+                <StringItem index="135" value="Duala (Cameroon)"/>
+                <StringItem index="136" value="German (Italy)"/>
+                <StringItem index="137" value="Portuguese (Latin, Brazil)"/>
+                <StringItem index="138" value="French (Tunisia)"/>
+                <StringItem index="139" value="Serbian (Serbia)"/>
+                <StringItem index="140" value="German (Switzerland)"/>
+                <StringItem index="141" value="Swahili (Latin, Tanzania)"/>
+                <StringItem index="142" value="French (French Polynesia)"/>
+                <StringItem index="143" value="Portuguese (Equatorial Guinea)"/>
+                <StringItem index="144" value="Vunjo (Tanzania)"/>
+                <StringItem index="145" value="Machame (Tanzania)"/>
+                <StringItem index="146" value="Malagasy (Latin, Madagascar)"/>
+                <StringItem index="147" value="English (Tuvalu)"/>
+                <StringItem index="148" value="English (Pitcairn Islands)"/>
+                <StringItem index="149" value="Luba-Katanga (Latin, Congo - Kinshasa)"/>
+                <StringItem index="150" value="Chinese (Simplified, Hong Kong SAR China)"/>
+                <StringItem index="151" value="Dutch (Netherlands)"/>
+                <StringItem index="152" value="English (Guyana)"/>
+                <StringItem index="153" value="Jola-Fonyi (Senegal)"/>
+                <StringItem index="154" value="Dutch (Cura&#xe7;ao)"/>
+                <StringItem index="155" value="Arabic (Algeria)"/>
+                <StringItem index="156" value="Portuguese (Switzerland)"/>
+                <StringItem index="157" value="French (Equatorial Guinea)"/>
+                <StringItem index="158" value="English (Nigeria)"/>
+                <StringItem index="159" value="French (C&#xf4;te d&#x2019;Ivoire)"/>
+                <StringItem index="160" value="Kikuyu (Kenya)"/>
+                <StringItem index="161" value="Interlingua (world)"/>
+                <StringItem index="162" value="English (Pakistan)"/>
+                <StringItem index="163" value="Chinese (China)"/>
+                <StringItem index="164" value="English (St. Lucia)"/>
+                <StringItem index="165" value="Bodo (India)"/>
+                <StringItem index="166" value="Fulah (Adlam, Burkina Faso)"/>
+                <StringItem index="167" value="Manx (Isle of Man)"/>
+                <StringItem index="168" value="Cornish (Latin, United Kingdom)"/>
+                <StringItem index="169" value="Bambara (Latin, Mali)"/>
+                <StringItem index="170" value="Yangben (Latin, Cameroon)"/>
+                <StringItem index="171" value="Macedonian (North Macedonia)"/>
+                <StringItem index="172" value="English (Trinidad &amp; Tobago)"/>
+                <StringItem index="173" value="Slovenian (Slovenia)"/>
+                <StringItem index="174" value="Sango (Latin, Central African Republic)"/>
+                <StringItem index="175" value="Finnish (Latin, Finland)"/>
+                <StringItem index="176" value="Xhosa (South Africa)"/>
+                <StringItem index="177" value="French (Belgium)"/>
+                <StringItem index="178" value="Ngomba (Cameroon)"/>
+                <StringItem index="179" value="Fulah (Adlam, Niger)"/>
+                <StringItem index="180" value="Spanish (Venezuela)"/>
+                <StringItem index="181" value="Meru (Kenya)"/>
+                <StringItem index="182" value="English (Bermuda)"/>
+                <StringItem index="183" value="Norwegian Bokm&#xe5;l (Norway)"/>
+                <StringItem index="184" value="Kabuverdianu (Cape Verde)"/>
+                <StringItem index="185" value="Vietnamese (Vietnam)"/>
+                <StringItem index="186" value="English (United States)"/>
+                <StringItem index="187" value="Morisyen (Mauritius)"/>
+                <StringItem index="188" value="French (Burkina Faso)"/>
+                <StringItem index="189" value="Italian (San Marino)"/>
+                <StringItem index="190" value="Persian (Arabic, Iran)"/>
+                <StringItem index="191" value="Sanskrit (Devanagari, India)"/>
+                <StringItem index="192" value="French (Mayotte)"/>
+                <StringItem index="193" value="Gujarati (India)"/>
+                <StringItem index="194" value="Fulah (Latin, Cameroon)"/>
+                <StringItem index="195" value="Maltese (Latin, Malta)"/>
+                <StringItem index="196" value="Finnish (Finland)"/>
+                <StringItem index="197" value="Catalan (France)"/>
+                <StringItem index="198" value="Serbian (Latin, Bosnia &amp; Herzegovina)"/>
+                <StringItem index="199" value="Chakma (Chakma, Bangladesh)"/>
+                <StringItem index="200" value="Ukrainian (Cyrillic, Ukraine)"/>
+                <StringItem index="201" value="French (Djibouti)"/>
+                <StringItem index="202" value="Fulah (Adlam, Guinea-Bissau)"/>
+                <StringItem index="203" value="Hausa (Ghana)"/>
+                <StringItem index="204" value="Yiddish (Hebrew, world)"/>
+                <StringItem index="205" value="Afrikaans (Latin, South Africa)"/>
+                <StringItem index="206" value="Tigrinya (Ethiopic, Ethiopia)"/>
+                <StringItem index="207" value="Tongan (Latin, Tonga)"/>
+                <StringItem index="208" value="German (Belgium)"/>
+                <StringItem index="209" value="Amharic (Ethiopic, Ethiopia)"/>
+                <StringItem index="210" value="Fulah (Latin, Guinea-Bissau)"/>
+                <StringItem index="211" value="Chinese (Macao SAR China)"/>
+                <StringItem index="212" value="Mundang (Latin, Cameroon)"/>
+                <StringItem index="213" value="Nyankole (Uganda)"/>
+                <StringItem index="214" value="Rundi (Latin, Burundi)"/>
+                <StringItem index="215" value="Malay (Malaysia)"/>
+                <StringItem index="216" value="Tamil (Sri Lanka)"/>
+                <StringItem index="217" value="German (Latin, Germany)"/>
+                <StringItem index="218" value="Cebuano (Philippines)"/>
+                <StringItem index="219" value="Tajik (Tajikistan)"/>
+                <StringItem index="220" value="Vunjo (Latin, Tanzania)"/>
+                <StringItem index="221" value="Quechua (Peru)"/>
+                <StringItem index="222" value="Spanish (Ecuador)"/>
+                <StringItem index="223" value="Macedonian (Cyrillic, North Macedonia)"/>
+                <StringItem index="224" value="Fulah (Adlam, Cameroon)"/>
+                <StringItem index="225" value="Ganda (Uganda)"/>
+                <StringItem index="226" value="Fulah (Latin, Niger)"/>
+                <StringItem index="227" value="Zulu (South Africa)"/>
+                <StringItem index="228" value="French (Latin, France)"/>
+                <StringItem index="229" value="Sundanese (Latin, Indonesia)"/>
+                <StringItem index="230" value="Chiga (Uganda)"/>
+                <StringItem index="231" value="Colognian (Germany)"/>
+                <StringItem index="232" value="Russian (Russia)"/>
+                <StringItem index="233" value="Nigerian Pidgin (Nigeria)"/>
+                <StringItem index="234" value="English (Dominica)"/>
+                <StringItem index="235" value="Hebrew (Hebrew, Israel)"/>
+                <StringItem index="236" value="English (Burundi)"/>
+                <StringItem index="237" value="Irish (Ireland)"/>
+                <StringItem index="238" value="Cantonese (China)"/>
+                <StringItem index="239" value="Romansh (Latin, Switzerland)"/>
+                <StringItem index="240" value="English (Samoa)"/>
+                <StringItem index="241" value="French (Luxembourg)"/>
+                <StringItem index="242" value="Maori (New Zealand)"/>
+                <StringItem index="243" value="Arabic (Eritrea)"/>
+                <StringItem index="244" value="Shona (Zimbabwe)"/>
+                <StringItem index="245" value="Spanish (Ceuta &amp; Melilla)"/>
+                <StringItem index="246" value="Irish (United Kingdom)"/>
+                <StringItem index="247" value="Thai (Thailand, TH, Thai Digits)"/>
+                <StringItem index="248" value="French (Seychelles)"/>
+                <StringItem index="249" value="English (Sierra Leone)"/>
+                <StringItem index="250" value="Fulah (Latin, Nigeria)"/>
+                <StringItem index="251" value="Norwegian (Norway)"/>
+                <StringItem index="252" value="Fulah (Adlam, Nigeria)"/>
+                <StringItem index="253" value="Chinese (Traditional, Macao SAR China)"/>
+                <StringItem index="254" value="English (St. Helena)"/>
+                <StringItem index="255" value="Sindhi (Arabic, Pakistan)"/>
+                <StringItem index="256" value="German (Luxembourg)"/>
+                <StringItem index="257" value="German (Germany)"/>
+                <StringItem index="258" value="Norwegian Nynorsk (Latin, Norway)"/>
+                <StringItem index="259" value="English (Denmark)"/>
+                <StringItem index="260" value="Somali (Djibouti)"/>
+                <StringItem index="261" value="Lithuanian (Lithuania)"/>
+                <StringItem index="262" value="Esperanto (world)"/>
+                <StringItem index="263" value="Pashto (Pakistan)"/>
+                <StringItem index="264" value="English (US Outlying Islands)"/>
+                <StringItem index="265" value="English (Slovenia)"/>
+                <StringItem index="266" value="Vai (Vai, Liberia)"/>
+                <StringItem index="267" value="Lao (Laos)"/>
+                <StringItem index="268" value="Rombo (Latin, Tanzania)"/>
+                <StringItem index="269" value="Arabic (Lebanon)"/>
+                <StringItem index="270" value="Northern Luri (Arabic, Iran)"/>
+                <StringItem index="271" value="Afrikaans (South Africa)"/>
+                <StringItem index="272" value="Fulah (Guinea)"/>
+                <StringItem index="273" value="Colognian (Latin, Germany)"/>
+                <StringItem index="274" value="Spanish (Belize)"/>
+                <StringItem index="275" value="Arabic (United Arab Emirates)"/>
+                <StringItem index="276" value="Esperanto (Latin, world)"/>
+                <StringItem index="277" value="Croatian (Croatia)"/>
+                <StringItem index="278" value="Rombo (Tanzania)"/>
+                <StringItem index="279" value="Kashmiri (India)"/>
+                <StringItem index="280" value="Burmese (Myanmar (Burma))"/>
+                <StringItem index="281" value="Mongolian (Mongolia)"/>
+                <StringItem index="282" value="Urdu (Pakistan)"/>
+                <StringItem index="283" value="Danish (Denmark)"/>
+                <StringItem index="284" value="English (Micronesia)"/>
+                <StringItem index="285" value="English (Belgium)"/>
+                <StringItem index="286" value="French (Wallis &amp; Futuna)"/>
+                <StringItem index="287" value="Mazanderani (Iran)"/>
+                <StringItem index="288" value="English (Singapore)"/>
+                <StringItem index="289" value="Kalenjin (Kenya)"/>
+                <StringItem index="290" value="Fulah (Latin, Gambia)"/>
+                <StringItem index="291" value="Tatar (Cyrillic, Russia)"/>
+                <StringItem index="292" value="Teso (Latin, Uganda)"/>
+                <StringItem index="293" value="Asu (Latin, Tanzania)"/>
+                <StringItem index="294" value="Bena (Tanzania)"/>
+                <StringItem index="295" value="Fulah (Latin, Guinea)"/>
+                <StringItem index="296" value="Slovenian (Latin, Slovenia)"/>
+                <StringItem index="297" value="English (Sudan)"/>
+                <StringItem index="298" value="Maithili (Devanagari, India)"/>
+                <StringItem index="299" value="Japanese (Japan, JP, Japanese Calendar)"/>
+                <StringItem index="300" value="Spanish (El Salvador)"/>
+                <StringItem index="301" value="Portuguese (Brazil)"/>
+                <StringItem index="302" value="Manipuri (Bangla, India)"/>
+                <StringItem index="303" value="Malayalam (India)"/>
+                <StringItem index="304" value="Irish (Latin, Ireland)"/>
+                <StringItem index="305" value="English (Falkland Islands)"/>
+                <StringItem index="306" value="Icelandic (Iceland)"/>
+                <StringItem index="307" value="Basaa (Latin, Cameroon)"/>
+                <StringItem index="308" value="English (Diego Garcia)"/>
+                <StringItem index="309" value="Portuguese (S&#xe3;o Tom&#xe9; &amp; Pr&#xed;ncipe)"/>
+                <StringItem index="310" value="Akan (Ghana)"/>
+                <StringItem index="311" value="Uzbek (Arabic, Afghanistan)"/>
+                <StringItem index="312" value="English (Sweden)"/>
+                <StringItem index="313" value="Chinese (Simplified, China)"/>
+                <StringItem index="314" value="Spanish (Latin America)"/>
+                <StringItem index="315" value="Lingala (Latin, Congo - Kinshasa)"/>
+                <StringItem index="316" value="Kako (Latin, Cameroon)"/>
+                <StringItem index="317" value="Gusii (Kenya)"/>
+                <StringItem index="318" value="Swiss German (Liechtenstein)"/>
+                <StringItem index="319" value="Chakma (Bangladesh)"/>
+                <StringItem index="320" value="Spanish (Canary Islands)"/>
+                <StringItem index="321" value="Arabic (Tunisia)"/>
+                <StringItem index="322" value="Bambara (Mali)"/>
+                <StringItem index="323" value="Cornish (United Kingdom)"/>
+                <StringItem index="324" value="Punjabi (Pakistan)"/>
+                <StringItem index="325" value="Uyghur (China)"/>
+                <StringItem index="326" value="Machame (Latin, Tanzania)"/>
+                <StringItem index="327" value="Kikuyu (Latin, Kenya)"/>
+                <StringItem index="328" value="Spanish (Brazil)"/>
+                <StringItem index="329" value="Koyra Chiini (Mali)"/>
+                <StringItem index="330" value="English (Solomon Islands)"/>
+                <StringItem index="331" value="Tibetan (Tibetan, China)"/>
+                <StringItem index="332" value="Cherokee (United States)"/>
+                <StringItem index="333" value="Kinyarwanda (Rwanda)"/>
+                <StringItem index="334" value="Tachelhit (Tifinagh, Morocco)"/>
+                <StringItem index="335" value="Arabic (Iraq)"/>
+                <StringItem index="336" value="English (Germany)"/>
+                <StringItem index="337" value="Romanian (Moldova)"/>
+                <StringItem index="338" value="English (Finland)"/>
+                <StringItem index="339" value="Uzbek (Uzbekistan)"/>
+                <StringItem index="340" value="Taita (Kenya)"/>
+                <StringItem index="341" value="Interlingua (Latin, world)"/>
+                <StringItem index="342" value="Yakut (Cyrillic, Russia)"/>
+                <StringItem index="343" value="English (Seychelles)"/>
+                <StringItem index="344" value="English (Uganda)"/>
+                <StringItem index="345" value="English (New Zealand)"/>
+                <StringItem index="346" value="Spanish (Uruguay)"/>
+                <StringItem index="347" value="Masai (Kenya)"/>
+                <StringItem index="348" value="Manipuri (India)"/>
+                <StringItem index="349" value="Russian (Ukraine)"/>
+                <StringItem index="350" value="Sango (Central African Republic)"/>
+                <StringItem index="351" value="English (Fiji)"/>
+                <StringItem index="352" value="German (Liechtenstein)"/>
+                <StringItem index="353" value="English (Barbados)"/>
+                <StringItem index="354" value="Inari Sami (Finland)"/>
+                <StringItem index="355" value="Croatian (Bosnia &amp; Herzegovina)"/>
+                <StringItem index="356" value="Yoruba (Latin, Nigeria)"/>
+                <StringItem index="357" value="German (Austria)"/>
+                <StringItem index="358" value="Luba-Katanga (Congo - Kinshasa)"/>
+                <StringItem index="359" value="Arabic (world)"/>
+                <StringItem index="360" value="Somali (Somalia)"/>
+                <StringItem index="361" value="Latvian (Latvia)"/>
+                <StringItem index="362" value="Arabic (Kuwait)"/>
+                <StringItem index="363" value="Serbian (Cyrillic, Serbia)"/>
+                <StringItem index="364" value="English (Lesotho)"/>
+                <StringItem index="365" value="English (Hong Kong SAR China)"/>
+                <StringItem index="366" value="Bodo (Devanagari, India)"/>
+                <StringItem index="367" value="Meru (Latin, Kenya)"/>
+                <StringItem index="368" value="Chechen (Russia)"/>
+                <StringItem index="369" value="Georgian (Georgia)"/>
+                <StringItem index="370" value="Swahili (Tanzania)"/>
+                <StringItem index="371" value="French (Rwanda)"/>
+                <StringItem index="372" value="Malagasy (Madagascar)"/>
+                <StringItem index="373" value="English (Latin, United States)"/>
+                <StringItem index="374" value="Ossetic (Russia)"/>
+                <StringItem index="375" value="Serbian (Latin, Serbia)"/>
+                <StringItem index="376" value="Kyrgyz (Kyrgyzstan)"/>
+                <StringItem index="377" value="Central Atlas Tamazight (Latin, Morocco)"/>
+                <StringItem index="378" value="Dutch (Latin, Netherlands)"/>
+                <StringItem index="379" value="Kurdish (Latin, Turkey)"/>
+                <StringItem index="380" value="Morisyen (Latin, Mauritius)"/>
+                <StringItem index="381" value="Arabic (Jordan)"/>
+                <StringItem index="382" value="Galician (Latin, Spain)"/>
+                <StringItem index="383" value="Kyrgyz (Cyrillic, Kyrgyzstan)"/>
+                <StringItem index="384" value="Amharic (Ethiopia)"/>
+                <StringItem index="385" value="French (Algeria)"/>
+                <StringItem index="386" value="Tibetan (China)"/>
+                <StringItem index="387" value="Quechua (Ecuador)"/>
+                <StringItem index="388" value="Georgian (Georgian, Georgia)"/>
+                <StringItem index="389" value="English (Montserrat)"/>
+                <StringItem index="390" value="Konkani (Devanagari, India)"/>
+                <StringItem index="391" value="English (Guernsey)"/>
+                <StringItem index="392" value="Makonde (Latin, Tanzania)"/>
+                <StringItem index="393" value="Santali (India)"/>
+                <StringItem index="394" value="Swedish (Sweden)"/>
+                <StringItem index="395" value="Serbian (Montenegro)"/>
+                <StringItem index="396" value="English (Zambia)"/>
+                <StringItem index="397" value="French (Mali)"/>
+                <StringItem index="398" value="Hausa (Nigeria)"/>
+                <StringItem index="399" value="Arabic (Saudi Arabia)"/>
+                <StringItem index="400" value="Persian (Afghanistan)"/>
+                <StringItem index="401" value="Filipino (Latin, Philippines)"/>
+                <StringItem index="402" value="Oromo (Latin, Ethiopia)"/>
+                <StringItem index="403" value="Ossetic (Georgia)"/>
+                <StringItem index="404" value="Central Kurdish (Arabic, Iraq)"/>
+                <StringItem index="405" value="Yiddish (world)"/>
+                <StringItem index="406" value="English (Malta)"/>
+                <StringItem index="407" value="English (Ghana)"/>
+                <StringItem index="408" value="English (Israel)"/>
+                <StringItem index="409" value="Kannada (Kannada, India)"/>
+                <StringItem index="410" value="Central Atlas Tamazight (Morocco)"/>
+                <StringItem index="411" value="Greek (Greek, Greece)"/>
+                <StringItem index="412" value="Koyraboro Senni (Mali)"/>
+                <StringItem index="413" value="Rwa (Latin, Tanzania)"/>
+                <StringItem index="414" value="Lakota (United States)"/>
+                <StringItem index="415" value="Vai (Latin, Liberia)"/>
+                <StringItem index="416" value="Swahili (Congo - Kinshasa)"/>
+                <StringItem index="417" value="Fulah (Adlam, Mauritania)"/>
+                <StringItem index="418" value="Italian (Vatican City)"/>
+                <StringItem index="419" value="Spanish (Philippines)"/>
+                <StringItem index="420" value="Spanish (Spain)"/>
+                <StringItem index="421" value="Spanish (Colombia)"/>
+                <StringItem index="422" value="Bulgarian (Bulgaria)"/>
+                <StringItem index="423" value="English (St. Vincent &amp; Grenadines)"/>
+                <StringItem index="424" value="Koyraboro Senni (Latin, Mali)"/>
+                <StringItem index="425" value="Upper Sorbian (Germany)"/>
+                <StringItem index="426" value="Basque (Latin, Spain)"/>
+                <StringItem index="427" value="English (Europe)"/>
+                <StringItem index="428" value="Swedish (Latin, Sweden)"/>
+                <StringItem index="429" value="Arabic (Sudan)"/>
+                <StringItem index="430" value="Hausa (Niger)"/>
+                <StringItem index="431" value="English (St. Kitts &amp; Nevis)"/>
+                <StringItem index="432" value="Romanian (Romania)"/>
+                <StringItem index="433" value="Serbian (Latin, Montenegro)"/>
+                <StringItem index="434" value="Spanish (Guatemala)"/>
+                <StringItem index="435" value="Fulah (Latin, Liberia)"/>
+                <StringItem index="436" value="Basaa (Cameroon)"/>
+                <StringItem index="437" value="North Ndebele (Latin, Zimbabwe)"/>
+                <StringItem index="438" value="French (Madagascar)"/>
+                <StringItem index="439" value="Spanish (Chile)"/>
+                <StringItem index="440" value="Kamba (Kenya)"/>
+                <StringItem index="441" value="Persian (Iran)"/>
+                <StringItem index="442" value="English (Macao SAR China)"/>
+                <StringItem index="443" value="Japanese (Japanese, Japan)"/>
+                <StringItem index="444" value="English (Belize)"/>
+                <StringItem index="445" value="Lakota (Latin, United States)"/>
+                <StringItem index="446" value="Albanian (Albania)"/>
+                <StringItem index="447" value="Romanian (Latin, Romania)"/>
+                <StringItem index="448" value="Tasawaq (Niger)"/>
+                <StringItem index="449" value="Kwasio (Cameroon)"/>
+                <StringItem index="450" value="Tamil (Tamil, India)"/>
+                <StringItem index="451" value="Kabyle (Latin, Algeria)"/>
+                <StringItem index="452" value="English (Northern Mariana Islands)"/>
+                <StringItem index="453" value="English (Grenada)"/>
+                <StringItem index="454" value="Sangu (Latin, Tanzania)"/>
+                <StringItem index="455" value="English (Botswana)"/>
+                <StringItem index="456" value="Kabyle (Algeria)"/>
+                <StringItem index="457" value="Makonde (Tanzania)"/>
+                <StringItem index="458" value="Hebrew (Israel)"/>
+                <StringItem index="459" value="Tamil (Malaysia)"/>
+                <StringItem index="460" value="Swedish (Finland)"/>
+                <StringItem index="461" value="North Ndebele (Zimbabwe)"/>
+                <StringItem index="462" value="Luyia (Latin, Kenya)"/>
+                <StringItem index="463" value="Sinhala (Sinhala, Sri Lanka)"/>
+                <StringItem index="464" value="English (Ireland)"/>
+                <StringItem index="465" value="Chinese (Singapore)"/>
+                <StringItem index="466" value="English (Kiribati)"/>
+                <StringItem index="467" value="Tasawaq (Latin, Niger)"/>
+                <StringItem index="468" value="Oromo (Ethiopia)"/>
+                <StringItem index="469" value="Lao (Lao, Laos)"/>
+                <StringItem index="470" value="Albanian (Latin, Albania)"/>
+                <StringItem index="471" value="Japanese (Japan)"/>
+                <StringItem index="472" value="Kamba (Latin, Kenya)"/>
+                <StringItem index="473" value="Fulah (Adlam, Ghana)"/>
+                <StringItem index="474" value="Korean (Korean, South Korea)"/>
+                <StringItem index="475" value="French (St. Martin)"/>
+                <StringItem index="476" value="Malay (Indonesia)"/>
+                <StringItem index="477" value="Sanskrit (India)"/>
+                <StringItem index="478" value="Cantonese (Hong Kong SAR China)"/>
+                <StringItem index="479" value="English (Eswatini)"/>
+                <StringItem index="480" value="Faroese (Latin, Faroe Islands)"/>
+                <StringItem index="481" value="Rwa (Tanzania)"/>
+                <StringItem index="482" value="Spanish (Peru)"/>
+                <StringItem index="483" value="Makhuwa-Meetto (Mozambique)"/>
+                <StringItem index="484" value="English (United Kingdom)"/>
+                <StringItem index="485" value="Chinese (Traditional, Hong Kong SAR China)"/>
+                <StringItem index="486" value="Santali (Ol Chiki, India)"/>
+                <StringItem index="487" value="Kazakh (Kazakhstan)"/>
+                <StringItem index="488" value="Spanish (Panama)"/>
+                <StringItem index="489" value="Arabic (Palestinian Territories)"/>
+                <StringItem index="490" value="French (Monaco)"/>
+                <StringItem index="491" value="Urdu (India)"/>
+                <StringItem index="492" value="Chechen (Cyrillic, Russia)"/>
+                <StringItem index="493" value="Swiss German (Switzerland)"/>
+                <StringItem index="494" value="Luyia (Kenya)"/>
+                <StringItem index="495" value="Kako (Cameroon)"/>
+                <StringItem index="496" value="Spanish (Equatorial Guinea)"/>
+                <StringItem index="497" value="Makhuwa-Meetto (Latin, Mozambique)"/>
+                <StringItem index="498" value="Arabic (Yemen)"/>
+                <StringItem index="499" value="English (Sint Maarten)"/>
+                <StringItem index="500" value="Russian (Kazakhstan)"/>
+                <StringItem index="501" value="Korean (North Korea)"/>
+                <StringItem index="502" value="Dutch (Suriname)"/>
+                <StringItem index="503" value="English (Bahamas)"/>
+                <StringItem index="504" value="Bemba (Latin, Zambia)"/>
+                <StringItem index="505" value="Kalenjin (Latin, Kenya)"/>
+                <StringItem index="506" value="Chiga (Latin, Uganda)"/>
+                <StringItem index="507" value="Dutch (Caribbean Netherlands)"/>
+                <StringItem index="508" value="Ewe (Latin, Ghana)"/>
+                <StringItem index="509" value="Fulah (Adlam, Guinea)"/>
+                <StringItem index="510" value="Uzbek (Cyrillic, Uzbekistan)"/>
+                <StringItem index="511" value="Hindi (Devanagari, India)"/>
+                <StringItem index="512" value="English (Kenya)"/>
+                <StringItem index="513" value="Asu (Tanzania)"/>
+                <StringItem index="514" value="French (Senegal)"/>
+                <StringItem index="515" value="French (Morocco)"/>
+                <StringItem index="516" value="Portuguese (Luxembourg)"/>
+                <StringItem index="517" value="Fulah (Adlam, Gambia)"/>
+                <StringItem index="518" value="French (St. Barth&#xe9;lemy)"/>
+                <StringItem index="519" value="Meta&#x2bc; (Cameroon)"/>
+                <StringItem index="520" value="Kwasio (Latin, Cameroon)"/>
+                <StringItem index="521" value="Maithili (India)"/>
+                <StringItem index="522" value="Korean (South Korea)"/>
+                <StringItem index="523" value="Tajik (Cyrillic, Tajikistan)"/>
+                <StringItem index="524" value="Spanish (Mexico)"/>
+                <StringItem index="525" value="Zulu (Latin, South Africa)"/>
+                <StringItem index="526" value="Dogri (India)"/>
+                <StringItem index="527" value="English (South Sudan)"/>
+                <StringItem index="528" value="Tibetan (India)"/>
+                <StringItem index="529" value="Tachelhit (Morocco)"/>
+                <StringItem index="530" value="English (Madagascar)"/>
+                <StringItem index="531" value="French (Burundi)"/>
+                <StringItem index="532" value="Upper Sorbian (Latin, Germany)"/>
+                <StringItem index="533" value="Nama (Latin, Namibia)"/>
+                <StringItem index="534" value="Breton (Latin, France)"/>
+                <StringItem index="535" value="Bangla (Bangladesh)"/>
+                <StringItem index="536" value="Spanish (Latin, Spain)"/>
+                <StringItem index="537" value="English (South Africa)"/>
+                <StringItem index="538" value="Welsh (Latin, United Kingdom)"/>
+                <StringItem index="539" value="French (France)"/>
+                <StringItem index="540" value="Punjabi (India)"/>
+                <StringItem index="541" value="English (Marshall Islands)"/>
+                <StringItem index="542" value="French (Benin)"/>
+                <StringItem index="543" value="Vai (Liberia)"/>
+                <StringItem index="544" value="Javanese (Latin, Indonesia)"/>
+                <StringItem index="545" value="Yakut (Russia)"/>
+                <StringItem index="546" value="Pashto (Afghanistan)"/>
+                <StringItem index="547" value="Bosnian (Cyrillic, Bosnia &amp; Herzegovina)"/>
+                <StringItem index="548" value="Xhosa (Latin, South Africa)"/>
+                <StringItem index="549" value="Taita (Latin, Kenya)"/>
+                <StringItem index="550" value="Slovak (Slovakia)"/>
+                <StringItem index="551" value="Koyra Chiini (Latin, Mali)"/>
+                <StringItem index="552" value="Mazanderani (Arabic, Iran)"/>
+                <StringItem index="553" value="Mongolian (Cyrillic, Mongolia)"/>
+                <StringItem index="554" value="Wolof (Senegal)"/>
+                <StringItem index="555" value="Hausa (Latin, Nigeria)"/>
+                <StringItem index="556" value="French (Haiti)"/>
+                <StringItem index="557" value="Russian (Cyrillic, Russia)"/>
+                <StringItem index="558" value="Telugu (India)"/>
+                <StringItem index="559" value="Masai (Latin, Kenya)"/>
+                <StringItem index="560" value="Dutch (Sint Maarten)"/>
+                <StringItem index="561" value="French (Congo - Brazzaville)"/>
+                <StringItem index="562" value="Manx (Latin, Isle of Man)"/>
+                <StringItem index="563" value="Maltese (Malta)"/>
+                <StringItem index="564" value="Malay (Latin, Malaysia)"/>
+                <StringItem index="565" value="Malayalam (Malayalam, India)"/>
+                <StringItem index="566" value="Low German (Netherlands)"/>
+                <StringItem index="567" value="Standard Moroccan Tamazight (Tifinagh, Morocco)"/>
+                <StringItem index="568" value="Nyankole (Latin, Uganda)"/>
+                <StringItem index="569" value="English (Vanuatu)"/>
+                <StringItem index="570" value="Tongan (Tonga)"/>
+                <StringItem index="571" value="Fulah (Latin, Sierra Leone)"/>
+                <StringItem index="572" value="Sena (Mozambique)"/>
+                <StringItem index="573" value="Soga (Latin, Uganda)"/>
+                <StringItem index="574" value="Fulah (Adlam, Senegal)"/>
+                <StringItem index="575" value="Vietnamese (Latin, Vietnam)"/>
+                <StringItem index="576" value="Sundanese (Indonesia)"/>
+                <StringItem index="577" value="Ngomba (Latin, Cameroon)"/>
+                <StringItem index="578" value="Sichuan Yi (China)"/>
+                <StringItem index="579" value="Punjabi (Arabic, Pakistan)"/>
+                <StringItem index="580" value="French (R&#xe9;union)"/>
+                <StringItem index="581" value="Bangla (India)"/>
+                <StringItem index="582" value="French (Guadeloupe)"/>
+                <StringItem index="583" value="Standard Moroccan Tamazight (Morocco)"/>
+                <StringItem index="584" value="Ukrainian (Ukraine)"/>
+                <StringItem index="585" value="Ganda (Latin, Uganda)"/>
+                <StringItem index="586" value="Cebuano (Latin, Philippines)"/>
+                <StringItem index="587" value="English (Norfolk Island)"/>
+                <StringItem index="588" value="French (Switzerland)"/>
+                <StringItem index="589" value="Serbian (Cyrillic, Kosovo)"/>
+                <StringItem index="590" value="Norwegian Bokm&#xe5;l (Latin, Norway)"/>
+                <StringItem index="591" value="Arabic (South Sudan)"/>
+                <StringItem index="592" value="English (Guam)"/>
+                <StringItem index="593" value="Dutch (Aruba)"/>
+                <StringItem index="594" value="English (Anguilla)"/>
+                <StringItem index="595" value="Western Frisian (Latin, Netherlands)"/>
+                <StringItem index="596" value="Soga (Uganda)"/>
+                <StringItem index="597" value="English (Cameroon)"/>
+                <StringItem index="598" value="Czech (Czechia)"/>
+                <StringItem index="599" value="Catalan (Spain)"/>
+                <StringItem index="600" value="Hungarian (Latin, Hungary)"/>
+                <StringItem index="601" value="Romansh (Switzerland)"/>
+                <StringItem index="602" value="Russian (Moldova)"/>
+                <StringItem index="603" value="Fulah (Latin, Senegal)"/>
+                <StringItem index="604" value="English (Tonga)"/>
+                <StringItem index="605" value="Fulah (Adlam, Sierra Leone)"/>
+                <StringItem index="606" value="English (Papua New Guinea)"/>
+                <StringItem index="607" value="Estonian (Latin, Estonia)"/>
+                <StringItem index="608" value="French (Central African Republic)"/>
+                <StringItem index="609" value="Portuguese (Timor-Leste)"/>
+                <StringItem index="610" value="English (Eritrea)"/>
+                <StringItem index="611" value="Serbian (Bosnia &amp; Herzegovina)"/>
+                <StringItem index="612" value="Spanish (Paraguay)"/>
+                <StringItem index="613" value="Konkani (India)"/>
+                <StringItem index="614" value="Belarusian (Cyrillic, Belarus)"/>
+                <StringItem index="615" value="French (Togo)"/>
+                <StringItem index="616" value="Dzongkha (Tibetan, Bhutan)"/>
+                <StringItem index="617" value="Serbian (Latin, Kosovo)"/>
+                <StringItem index="618" value="English (Philippines)"/>
+                <StringItem index="619" value="Igbo (Nigeria)"/>
+                <StringItem index="620" value="French (Guinea)"/>
+                <StringItem index="621" value="Scottish Gaelic (Latin, United Kingdom)"/>
+                <StringItem index="622" value="Chinese (Simplified, Macao SAR China)"/>
+                <StringItem index="623" value="Northern Sami (Finland)"/>
+                <StringItem index="624" value="English (Cook Islands)"/>
+                <StringItem index="625" value="Arabic (Morocco)"/>
+                <StringItem index="626" value="Hawaiian (Latin, United States)"/>
+                <StringItem index="627" value="English (Antigua &amp; Barbuda)"/>
+                <StringItem index="628" value="French (Chad)"/>
+                <StringItem index="629" value="Embu (Kenya)"/>
+                <StringItem index="630" value="Lithuanian (Latin, Lithuania)"/>
+                <StringItem index="631" value="Bemba (Zambia)"/>
+                <StringItem index="632" value="Ewondo (Latin, Cameroon)"/>
+                <StringItem index="633" value="Ewondo (Cameroon)"/>
+                <StringItem index="634" value="French (Congo - Kinshasa)"/>
+                <StringItem index="635" value="Rundi (Burundi)"/>
+                <StringItem index="636" value="English (Namibia)"/>
+                <StringItem index="637" value="Meta&#x2bc; (Latin, Cameroon)"/>
+                <StringItem index="638" value="Catalan (Italy)"/>
+                <StringItem index="639" value="Quechua (Latin, Peru)"/>
+                <StringItem index="640" value="Langi (Tanzania)"/>
+                <StringItem index="641" value="Indonesian (Indonesia)"/>
+                <StringItem index="642" value="Teso (Kenya)"/>
+                <StringItem index="643" value="Catalan (Andorra)"/>
+                <StringItem index="644" value="Quechua (Bolivia)"/>
+                <StringItem index="645" value="Hawaiian (United States)"/>
+                <StringItem index="646" value="French (Canada)"/>
+                <StringItem index="647" value="Kabuverdianu (Latin, Cape Verde)"/>
+                <StringItem index="648" value="Albanian (Kosovo)"/>
+                <StringItem index="649" value="Maori (Latin, New Zealand)"/>
+                <StringItem index="650" value="English (Cayman Islands)"/>
+                <StringItem index="651" value="Italian (Switzerland)"/>
+                <StringItem index="652" value="Sinhala (Sri Lanka)"/>
+                <StringItem index="653" value="Luo (Kenya)"/>
+                <StringItem index="654" value="English (United Arab Emirates)"/>
+                <StringItem index="655" value="Italian (Italy)"/>
+                <StringItem index="656" value="Arabic (Somalia)"/>
+                <StringItem index="657" value="English (Zimbabwe)"/>
+                <StringItem index="658" value="Norwegian Nynorsk (Norway)"/>
+                <StringItem index="659" value="French (Mauritius)"/>
+                <StringItem index="660" value="Northern Sami (Sweden)"/>
+                <StringItem index="661" value="English (Tokelau)"/>
+                <StringItem index="662" value="Mundang (Cameroon)"/>
+                <StringItem index="663" value="Samburu (Kenya)"/>
+                <StringItem index="664" value="Portuguese (Guinea-Bissau)"/>
+                <StringItem index="665" value="Shona (Latin, Zimbabwe)"/>
+                <StringItem index="666" value="Malay (Singapore)"/>
+                <StringItem index="667" value="Ewe (Togo)"/>
+                <StringItem index="668" value="Lingala (Angola)"/>
+                <StringItem index="669" value="Belarusian (Belarus)"/>
+                <StringItem index="670" value="Khmer (Khmer, Cambodia)"/>
+                <StringItem index="671" value="Italian (Latin, Italy)"/>
+                <StringItem index="672" value="Portuguese (Cape Verde)"/>
+                <StringItem index="673" value="Spanish (Puerto Rico)"/>
+                <StringItem index="674" value="Walser (Switzerland)"/>
+                <StringItem index="675" value="Russian (Belarus)"/>
+                <StringItem index="676" value="Faroese (Denmark)"/>
+                <StringItem index="677" value="Ewe (Ghana)"/>
+                <StringItem index="678" value="Arabic (Bahrain)"/>
+                <StringItem index="679" value="Kazakh (Cyrillic, Kazakhstan)"/>
+                <StringItem index="680" value="Uyghur (Arabic, China)"/>
+                <StringItem index="681" value="Hindi (India)"/>
+                <StringItem index="682" value="English (Switzerland)"/>
+                <StringItem index="683" value="Samburu (Latin, Kenya)"/>
+                <StringItem index="684" value="Faroese (Faroe Islands)"/>
+                <StringItem index="685" value="Yoruba (Benin)"/>
+                <StringItem index="686" value="Asturian (Spain)"/>
+                <StringItem index="687" value="French (Comoros)"/>
+                <StringItem index="688" value="French (Martinique)"/>
+                <StringItem index="689" value="Spanish (Argentina)"/>
+                <StringItem index="690" value="Dogri (Devanagari, India)"/>
+                <StringItem index="691" value="English (Malaysia)"/>
+                <StringItem index="692" value="Sangu (Tanzania)"/>
+                <StringItem index="693" value="Embu (Latin, Kenya)"/>
+                <StringItem index="694" value="Cantonese (Traditional, Hong Kong SAR China)"/>
+                <StringItem index="695" value="Armenian (Armenia)"/>
+                <StringItem index="696" value="English (Gambia)"/>
+                <StringItem index="697" value="Shambala (Latin, Tanzania)"/>
+                <StringItem index="698" value="Nepali (Nepal)"/>
+                <StringItem index="699" value="Friulian (Italy)"/>
+                <StringItem index="700" value="Tamil (India)"/>
+                <StringItem index="701" value="French (French Guiana)"/>
+                <StringItem index="702" value="Indonesian (Latin, Indonesia)"/>
+                <StringItem index="703" value="Portuguese (Angola)"/>
+                <StringItem index="704" value="Telugu (Telugu, India)"/>
+                <StringItem index="705" value="English (world)"/>
+                <StringItem index="706" value="Duala (Latin, Cameroon)"/>
+                <StringItem index="707" value="Javanese (Indonesia)"/>
+                <StringItem index="708" value="Langi (Latin, Tanzania)"/>
+                <StringItem index="709" value="Russian (Kyrgyzstan)"/>
+                <StringItem index="710" value="French (Mauritania)"/>
+                <StringItem index="711" value="Bafia (Latin, Cameroon)"/>
+                <StringItem index="712" value="Fulah (Latin, Burkina Faso)"/>
+                <StringItem index="713" value="Chinese (Traditional, Taiwan)"/>
+                <StringItem index="714" value="Assamese (India)"/>
+                <StringItem index="715" value="Chinese (Hong Kong SAR China)"/>
+                <StringItem index="716" value="Swahili (Kenya)"/>
+                <StringItem index="717" value="Assamese (Bangla, India)"/>
+                <StringItem index="718" value="Thai (Thailand)"/>
+                <StringItem index="719" value="English (Malawi)"/>
+                <StringItem index="720" value="Nama (Namibia)"/>
+                <StringItem index="721" value="English (British Indian Ocean Territory)"/>
+                <StringItem index="722" value="Arabic (Qatar)"/>
+                <StringItem index="723" value="Arabic (Arabic, Egypt)"/>
+                <StringItem index="724" value="English (Cocos (Keeling) Islands)"/>
+                <StringItem index="725" value="Portuguese (Portugal)"/>
+                <StringItem index="726" value="Slovak (Latin, Slovakia)"/>
+                <StringItem index="727" value="Azerbaijani (Cyrillic, Azerbaijan)"/>
+                <StringItem index="728" value="Central Kurdish (Iraq)"/>
+                <StringItem index="729" value="Tachelhit (Latin, Morocco)"/>
+                <StringItem index="730" value="Spanish (Cuba)"/>
+                <StringItem index="731" value="English (US Virgin Islands)"/>
+                <StringItem index="732" value="Basque (Spain)"/>
+                <StringItem index="733" value="Igbo (Latin, Nigeria)"/>
+                <StringItem index="734" value="Greek (Greece)"/>
+                <StringItem index="735" value="Yangben (Cameroon)"/>
+                <StringItem index="736" value="Danish (Greenland)"/>
+                <StringItem index="737" value="Khmer (Cambodia)"/>
+                <StringItem index="738" value="Central Kurdish (Iran)"/>
+                <StringItem index="739" value="Kashmiri (Arabic, India)"/>
+                <StringItem index="740" value="Catalan (Spain, Valencian)"/>
+                <StringItem index="741" value="Wolof (Latin, Senegal)"/>
+                <StringItem index="742" value="Sindhi (Devanagari, India)"/>
+                <StringItem index="743" value="Marathi (Devanagari, India)"/>
+                <StringItem index="744" value="Spanish (Costa Rica)"/>
+                <StringItem index="745" value="French (Gabon)"/>
+                <StringItem index="746" value="Arabic (Libya)"/>
+                <StringItem index="747" value="English (Mauritius)"/>
+                <StringItem index="748" value="Galician (Spain)"/>
+                <StringItem index="749" value="Azerbaijani (Latin, Azerbaijan)"/>
+                <StringItem index="750" value="English (Isle of Man)"/>
+                <StringItem index="751" value="Swiss German (Latin, Switzerland)"/>
+                <StringItem index="752" value="Sena (Latin, Mozambique)"/>
+                <StringItem index="753" value="English (Gibraltar)"/>
+                <StringItem index="754" value="English (Canada)"/>
+                <StringItem index="755" value="Cherokee (Cherokee, United States)"/>
+                <StringItem index="756" value="French (Syria)"/>
+                <StringItem index="757" value="Odia (Odia, India)"/>
+                <StringItem index="758" value="Somali (Ethiopia)"/>
+                <StringItem index="759" value="Catalan (Latin, Spain)"/>
+                <StringItem index="760" value="Dutch (Belgium)"/>
+                <StringItem index="761" value="Arabic (Djibouti)"/>
+                <StringItem index="762" value="Jola-Fonyi (Latin, Senegal)"/>
+                <StringItem index="763" value="Welsh (United Kingdom)"/>
+                <StringItem index="764" value="English (British Virgin Islands)"/>
+                <StringItem index="765" value="English (Turks &amp; Caicos Islands)"/>
+                <StringItem index="766" value="Swedish (&#xc5;land Islands)"/>
+                <StringItem index="767" value="Czech (Latin, Czechia)"/>
+                <StringItem index="768" value="Afrikaans (Namibia)"/>
+                <StringItem index="769" value="English (India)"/>
+                <StringItem index="770" value="Spanish (Nicaragua)"/>
+                <StringItem index="771" value="Sichuan Yi (Yi, China)"/>
+                <StringItem index="772" value="Sindhi (Pakistan)"/>
+                <StringItem index="773" value="Masai (Tanzania)"/>
+                <StringItem index="774" value="Malay (Brunei)"/>
+                <StringItem index="775" value="Chakma (India)"/>
+                <StringItem index="776" value="Breton (France)"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="birthDate">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="gender">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Male"/>
+                <StringItem index="1" value="Female"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="checkInDate">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="checkOutDate">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="roomType">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Single"/>
+                <StringItem index="1" value="Double"/>
+                <StringItem index="2" value="Guest"/>
+                <StringItem index="3" value="VIP"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roomTypeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="roomNumber">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="101"/>
+                <StringItem index="1" value="102"/>
+                <StringItem index="2" value="103"/>
+                <StringItem index="3" value="104"/>
+                <StringItem index="4" value="105"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roomNumberActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mainIcon">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Meals per day:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="meals">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="One meal"/>
+                <StringItem index="1" value="Two meals"/>
+                <StringItem index="2" value="Three meals"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose Value"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="clear">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CLEAR"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clear all values"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Special request:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="specialRequest">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="2d" green="2d" red="2d" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="1530" max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="X"/>
+            <Property name="toolTipText" type="java.lang.String" value="Quick exit"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="-"/>
+            <Property name="toolTipText" type="java.lang.String" value="Minimize"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="1" red="45" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel17" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabel18" alignment="0" pref="67" max="32767" attributes="0"/>
+                      <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tax" max="32767" attributes="0"/>
+                      <Component id="subtotal" max="32767" attributes="0"/>
+                      <Component id="total" pref="172" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Component id="jButton5" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton7" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton4" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton6" min="-2" pref="155" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="subtotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="total" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Tax:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Subtotal:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Total:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tax">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Net tax"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="subtotal">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Net subtotal"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="total">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="77" green="73" red="6e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Net total"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELETE"/>
+            <Property name="toolTipText" type="java.lang.String" value="Delete selected row"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PRINT"/>
+            <Property name="toolTipText" type="java.lang.String" value="Get total cost"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="RESET"/>
+            <Property name="toolTipText" type="java.lang.String" value="Reset all inputted value"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="EXIT"/>
+            <Property name="toolTipText" type="java.lang.String" value="Exit program"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="25" green="23" red="22" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="20" green="a5" red="da" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="UPDATE"/>
+            <Property name="toolTipText" type="java.lang.String" value="Reset value"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="mainTable">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="7" rowCount="0">
+                <Column editable="false" title="Reference number" type="java.lang.String"/>
+                <Column editable="false" title="Name" type="java.lang.String"/>
+                <Column editable="false" title="Room type" type="java.lang.String"/>
+                <Column editable="false" title="Room number" type="java.lang.String"/>
+                <Column editable="false" title="Check in date" type="java.lang.String"/>
+                <Column editable="false" title="Check out date" type="java.lang.String"/>
+                <Column editable="false" title="Remaining time" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="rowHeight" type="int" value="30"/>
+            <Property name="showGrid" type="boolean" value="false"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mainTableMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="viewMore">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="25" green="23" red="22" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="20" green="a5" red="da" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="VIEW MORE"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewMoreActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="printReceipt">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="25" green="23" red="22" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="20" green="a5" red="da" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PRINT RECEIPT"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printReceiptActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="timerLabel">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="timerLabelActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
